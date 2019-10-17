@@ -1,0 +1,85 @@
+/* IMAGES */
+
+{
+	box-sizing: border-box;
+}
+
+html {
+	background-color: white;
+}
+
+body {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 16px;
+	font-weight: 400;	
+	margin: 0;
+	padding: 0.5em;
+	color: white;
+	background-color: slateblue;
+	min-height: 100vh;
+	line-height: 1.2;
+
+
+	background-image: url(https://media.tenor.com/images/212f1f0293ee220e56ecc3b88b6b3b5a/tenor.gif);
+	background-size: contain;
+	
+}
+
+header {
+	padding: 0.5em;
+}
+
+header img {
+	width: 100%;
+}
+
+footer {
+	padding: 0.5em;
+	text-align: right;
+}
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: calc(15%) -1em;
+}
+
+h1 {
+	position: absolute;
+    top: 0.5em;
+    left: -0.5em;
+    text-align: center;
+    font-size: 5em;
+    z-index: 0;
+    mix-blend-mode: color-burn;
+    color: slateblue;
+    margin: 2em;
+    padding: 0;
+    line-height: 1;
+    letter-spacing: -0.05em;
+}
+
+img{
+	padding: .5em
+}
+
+img:hover {
+	max-width: 100%;
+	height: auto;
+	filter: grayscale(1);
+	mix-blend-mode: exclusion;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer {
+	position: absolute;
+	transform: rotate(-90deg);
+	right: 2em;
+	top: 100em;
+	color: blue;
+}
+
